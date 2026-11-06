@@ -1,0 +1,20 @@
+{
+  "checkpoints": [
+    {
+      "method": "T-FFC",
+      "file": "weights/tffc.pth",
+      "original_name": "virconv_single_branch.pth",
+      "bytes": 161693186,
+      "sha256": "3f6997ebebe702a07028f62fcc83d1c790f950e142cad1c03f5660b6935fa03a",
+      "model_parameters": 13713220
+    },
+    {
+      "method": "A-FFC",
+      "file": "weights/affc.pth",
+      "original_name": "virconv_three_branch.pth",
+      "bytes": 158380004,
+      "sha256": "a6bd304d939479a34b48970b5deb3bba127afdd952d24ced876403c3b8ee8b07",
+      "model_parameters": 13431918
+    }
+  ]
+}

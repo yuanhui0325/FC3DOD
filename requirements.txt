@@ -1,0 +1,15 @@
+# Direct dependencies supported by setup.py and active source imports.
+# Install PyTorch and the matching spconv CUDA wheel separately. See README.
+numpy
+numba
+tensorboardX
+easydict
+PyYAML
+scipy
+scikit-image
+Pillow
+opencv-python
+h5py
+tqdm
+matplotlib
+prefetch-generator

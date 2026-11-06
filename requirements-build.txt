@@ -1,0 +1,5 @@
+# setup.py, cabac/setup.py, and native CUDA extension build requirements.
+setuptools
+wheel
+pybind11
+ninja

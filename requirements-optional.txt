@@ -1,0 +1,3 @@
+# Optional framework geometry transforms and upstream evaluator CLI.
+kornia
+fire

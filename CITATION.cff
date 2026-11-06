@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use FC3DOD, please cite the paper below."
+title: "FC3DOD: Feature Compression for Cloud-Edge Multimodal 3D Object Detection"
+type: software
+repository-code: "https://github.com/yuanhui0325/FC3DOD"
+authors:
+  - family-names: Tian
+    given-names: Chongzhen
+  - family-names: Li
+    given-names: Zhengxin
+  - family-names: Yuan
+    given-names: Hui
+  - family-names: Hamzaoui
+    given-names: Raouf
+  - family-names: Shen
+    given-names: Liquan
+  - family-names: Kwong
+    given-names: Sam
+preferred-citation:
+  type: article
+  title: "Feature Compression for Cloud-Edge Multimodal 3D Object Detection"
+  authors:
+    - family-names: Tian
+      given-names: Chongzhen
+    - family-names: Li
+      given-names: Zhengxin
+    - family-names: Yuan
+      given-names: Hui
+    - family-names: Hamzaoui
+      given-names: Raouf
+    - family-names: Shen
+      given-names: Liquan
+    - family-names: Kwong
+      given-names: Sam
+  journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  year: 2026
+  volume: "48"
+  issue: "7"
+  start: "8411"
+  end: "8428"
+  doi: "10.1109/TPAMI.2026.3669471"
