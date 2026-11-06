@@ -92,18 +92,7 @@ python tools/prepare_kitti.py --data-path /absolute/path/to/kitti --workers 4
 
 Metadata generation processes the dataset and creates the files required for training and evaluation.
 
-## Weights
 
-This local package includes two complete detection checkpoints under `weights/`:
-
-| Method | Checkpoint | Model parameters |
-|---|---|---:|
-| T-FFC | `weights/tffc.pth` | 13,713,220 |
-| A-FFC | `weights/affc.pth` | 13,431,918 |
-
-Parameter counts cover the edge extractor, cloud decoder and detection heads, excluding buffers and PENet. See [checkpoint metadata and SHA-256 checksums](docs/checkpoints.json).
-
-The local package contains these files. For a Git source checkout, place the corresponding checkpoints at the paths above. PENet uses its own checkpoint, supplied through `--evaluate` during virtual-point preparation.
 
 ## Evaluation
 
